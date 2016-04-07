@@ -68,3 +68,7 @@ Run the following command from within the `audiojs` folder.
 ### License
 
 audio.js is released under the MIT license. Included MP3 and Ogg files are Creative Commons licensed tracks from [Bensound.com](http://www.bensound.com/)
+
+### Additions for this fork (by Andrew Serong)
+
+The only incredibly minor change so far, in `audio.js` is to wrap the forward slash in the time / duration div in a span element with class `time-slash`. This enables you to easily hide it in a media query if you want to.

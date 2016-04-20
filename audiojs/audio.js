@@ -203,7 +203,10 @@
             m = Math.floor(p / 60),
             s = Math.floor(p % 60);
         played.innerHTML = ((m<10?'0':'')+m+':'+(s<10?'0':'')+s);
-      }
+
+        this.updatePlayheadInterceptor(percent);
+      },
+      updatePlayheadInterceptor: function(e) {}
     },
 
     // ### Contructor functions
